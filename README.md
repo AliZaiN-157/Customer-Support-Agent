@@ -12,6 +12,7 @@ A sophisticated CLI-based customer support chatbot built with Google ADK (Agent 
 - 🛠️ **Tool Integration** - Seamless integration with PostgreSQL via MCP Toolbox
 
 ## Architecture
+![System Architecture Diagram](diagram.png)
 
 ### System Components
 
@@ -402,4 +403,5 @@ uv sync
 - **Google ADK Documentation**: [https://google.github.io/adk-docs/](https://google.github.io/adk-docs/)
 - **Mem0 Documentation**: [https://docs.mem0.ai/](https://docs.mem0.ai/)
 - **MCP Protocol**: [Model Context Protocol](https://modelcontextprotocol.io/)
+
 
