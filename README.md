@@ -201,7 +201,16 @@ INSERT INTO customer_orders (customer_email, status, items, order_date, total_am
 
 </details>
 
-### 7. Start MCP Toolbox Server
+### 7.  Install and configure MCP Toolbox Server
+
+Use the curl command or download directly using [Link](https://github.com/googleapis/genai-toolbox/releases)
+```bash
+version = "0.21.0" # x-release-please-version
+! curl -O https://storage.googleapis.com/genai-toolbox/v{version}/linux/amd64/toolbox
+
+# Make the binary executable and move the toolbox inside mcp_toolbox folder
+! chmod +x toolbox
+```
 
 The MCP Toolbox must be running before starting the agent. In a separate terminal:
 
@@ -403,5 +412,6 @@ uv sync
 - **Google ADK Documentation**: [https://google.github.io/adk-docs/](https://google.github.io/adk-docs/)
 - **Mem0 Documentation**: [https://docs.mem0.ai/](https://docs.mem0.ai/)
 - **MCP Protocol**: [Model Context Protocol](https://modelcontextprotocol.io/)
+
 
 
